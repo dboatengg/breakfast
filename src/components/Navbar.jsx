@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const style = {
-    container: `bg-brand-black py-[35px] opacity-90`,
+    container: `bg-brand-black py-[35px] opacity-90 absolute top-0 left-0 w-full`,
     content: `flex items-center flex-col gap-5`,
     navmenu: `flex items-center justify-center gap-7`,
     navlink: `text-white`,

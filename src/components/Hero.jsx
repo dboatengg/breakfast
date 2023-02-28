@@ -2,7 +2,7 @@ import Arrow from "../assets/arrow.png";
 
 const Hero = () => {
   const style = {
-    container: `h-[100vh] w-full absolute top-0 left-0`,
+    container: `h-[100vh] w-full relative top-0 left-0`,
     content: `h-full w-full relative py-[30px] flex items-center flex-col justify-between`,
     heroTop: `relative top-[180px] w-full relative`,
     heroBottom: `text-[25px] flex flex-col items-center gap-3`,

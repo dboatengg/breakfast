@@ -1,3 +1,6 @@
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: "Playfair Display", "serif";
   font-size: 18px;
@@ -5,7 +8,11 @@ body {
 h1 {
   line-height: 1;
 }
-
+.container {
+  width: 90%;
+  max-width: 1536px;
+  margin: 0 auto;
+}
 /*====================(hero)===================*/
 .navbar {
   box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.4);
