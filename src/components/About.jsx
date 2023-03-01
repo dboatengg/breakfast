@@ -1,5 +1,5 @@
 import aboutImg from "../assets/about__img.webp";
-import { Link } from "react-router-dom";
+import Button from "./Button";
 
 const About = () => {
   const style = {
@@ -9,10 +9,9 @@ const About = () => {
     text: `text-center max-w-[800px] w-[90% mx-auto]`,
     block: `block`,
     title: `text-center text-4xl mdMax:text-3xl`,
-    btn: `py-3 px-8 bg-brand-yellow`,
   };
   return (
-    <div className={style.container}>
+    <div className={`${style.container} about`} id="about">
       <div className={style.content}>
         <h2 className={style.title}>
           ENJOY
@@ -29,7 +28,7 @@ const About = () => {
           src={aboutImg}
           alt="image of two bowls with grapes"
         />
-        <Link className={style.btn}>See more</Link>
+        <Button />
       </div>
     </div>
   );

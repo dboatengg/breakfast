@@ -13,14 +13,14 @@ const Navbar = () => {
     //prettier-ignore
     <div className={`${style.container} navbar`}>
       <div className={style.content}>
-        <Link to="/" className={style.logo}>
+        <a href="/" className={style.logo}>
           <img className={style.logoImg} src={logo}></img>
-        </Link>
+        </a>
         <div className={style.navmenu}>
-            <Link className={style.navlink} to="/">HOME</Link>
-            <Link className={style.navlink} to="#about">ABOUT</Link>
-            <Link className={style.navlink} to="#shop">SHOP</Link>
-            <Link className={style.navlink} to="#contact">CONTACT</Link>
+            <a className={style.navlink} href="">HOME</a>
+            <a className={style.navlink} href="#about">ABOUT</a>
+            <a className={style.navlink} href="#shop">SHOP</a>
+            <a className={style.navlink} href="#contact">CONTACT</a>
         </div>
       </div>
     </div>

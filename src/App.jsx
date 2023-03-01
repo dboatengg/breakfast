@@ -1,20 +1,16 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import About from "./pages/About";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import History from "./components/History";
 import "./tailwind.css";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="about" element={<About />}></Route>
-        </Routes>
-      </Router>
+      <Navbar />
+      <Hero />
+      <About />
+      <History />
     </div>
   );
 }

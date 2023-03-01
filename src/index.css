@@ -1,9 +1,10 @@
 html {
   overflow-x: hidden;
+  font-size: 62.5%;
 }
 body {
   font-family: "Playfair Display", "serif";
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 h1 {
   line-height: 1;
@@ -13,10 +14,11 @@ h1 {
   max-width: 1536px;
   margin: 0 auto;
 }
-/*====================(hero)===================*/
+/*====================(Navbar)===================*/
 .navbar {
   box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.4);
 }
+/*====================(Hero)===================*/
 .hero {
   background-image: url("./assets/hero__bg.webp");
   background-size: 100%;
@@ -40,4 +42,11 @@ h1 {
   position: absolute;
   left: 60%;
   rotate: 90deg;
+}
+
+/*====================(history)===================*/
+.history {
+  background-image: url("./assets/history__bg.webp");
+  background-size: cover;
+  background-position: center center;
 }
