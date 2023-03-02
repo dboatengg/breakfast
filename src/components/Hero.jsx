@@ -6,7 +6,7 @@ const Hero = () => {
     content: `h-full w-full relative py-[30px] flex items-center flex-col justify-between`,
     heroTop: `relative top-[180px] w-full relative`,
     heroBottom: `text-[25px] flex flex-col items-center gap-3`,
-    title: `text-[80px] font-kaushan text-center`,
+    title: `text-[8rem] font-kaushan text-center smMax:text-[4rem]`,
     subtitle: `block`,
     arrow: `w-[120px]`,
     everyday: `text-brand-yellow`,

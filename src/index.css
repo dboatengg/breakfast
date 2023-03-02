@@ -19,6 +19,23 @@ h1 {
 .navbar {
   box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.4);
 }
+.navbar--fixed {
+  position: fixed;
+  top: -80px; /* Set initial position off screen */
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  animation: slideDown 0.5s forwards;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 /*====================(Hero)===================*/
 .hero {
   background-image: url("./assets/hero__bg.webp");

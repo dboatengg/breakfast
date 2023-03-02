@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import History from "./components/History";
 import FoodOne from "./components/FoodOne";
+import Products from "./components/Products";
 import "./tailwind.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About />
       <History />
       <FoodOne />
+      {/* <Products /> */}
     </div>
   );
 }
