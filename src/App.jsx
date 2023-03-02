@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import History from "./components/History";
+import FoodOne from "./components/FoodOne";
 import "./tailwind.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <About />
       <History />
+      <FoodOne />
     </div>
   );
 }

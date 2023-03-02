@@ -1,6 +1,6 @@
 const Button = () => {
   const style = {
-    btn: `py-4 px-8 bg-brand-yellow`,
+    btn: `py-[20px] px-[60px] bg-brand-yellow mdMax:py-[15px] mdMax:px-[40px]`,
   };
   return (
     <div>

@@ -2,7 +2,7 @@ import playBtn from "../assets/play.png";
 
 const History = () => {
   const style = {
-    container: `h-[600px] w-full relative py-[5rem]`,
+    container: `h-[65rem] w-full relative py-[5rem]`,
     content: `h-full w-full flex  flex-col`,
     title: `text-brand-yellow text-5xl`,
     text: `text-brand-white text-center mt-5`,

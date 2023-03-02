@@ -12,7 +12,7 @@ const Hero = () => {
     everyday: `text-brand-yellow`,
   };
   return (
-    <div className={`${style.container} hero`}>
+    <div className={`${style.container} hero`} id="home">
       <div className={`${style.content} hero__content`}>
         <div className={style.heroTop}>
           <h1 className={`${style.title} title`}>
