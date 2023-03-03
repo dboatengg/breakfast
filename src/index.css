@@ -26,6 +26,7 @@ h1 {
   width: 100%;
   z-index: 100;
   animation: slideDown 0.5s forwards;
+  box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.4);
 }
 
 @keyframes slideDown {
@@ -39,7 +40,8 @@ h1 {
 /*====================(Hero)===================*/
 .hero {
   background-image: url("./assets/hero__bg.webp");
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
   z-index: -3;
   color: white;

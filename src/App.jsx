@@ -4,6 +4,7 @@ import About from "./components/About";
 import History from "./components/History";
 import FoodOne from "./components/FoodOne";
 import FoodTwo from "./components/FoodTwo";
+import Gallery from "./components/Gallery";
 import Products from "./components/Products";
 import "./tailwind.css";
 
@@ -16,6 +17,7 @@ function App() {
       <History />
       <FoodOne />
       <FoodTwo />
+      <Gallery />
       {/* <Products /> */}
     </div>
   );
