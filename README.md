@@ -1,5 +1,7 @@
 # Breakfast
 
+![]('./src/assets/Breakfast.png')
+
 Breakfast is a landing page website will showcase a variety of breakfast food items and will provide detailed information about the company and its mission. This project is currently under construction.
 
 ## Features
