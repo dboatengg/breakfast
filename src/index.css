@@ -21,7 +21,7 @@ h1 {
 }
 .navbar--fixed {
   position: fixed;
-  top: -80px; /* Set initial position off screen */
+  top: -82px; /* Set initial position off screen */
   left: 0;
   width: 100%;
   z-index: 100;
