@@ -1,10 +1,13 @@
 import lunch from "../assets/lunch.png";
+import deserts from "../assets/deserts.png";
+import whiskey from "../assets/whiskey.png";
 import Button from "./Button";
 
-const Products = () => {
+const Products = ({ btnText }) => {
   const style = {
-    content: `flex items-center flex-wrap justify-between`,
-    block: `max-w-[30rem] flex item-center flex-col gap-5`,
+    container: `bg-brand-gray py-[100px]`,
+    content: `flex flex-wrap items-end gap-[30px]`,
+    block: `flex flex-col items-center max-w-[24rem] mx-auto text-center gap-5 grid-cols-1`,
   };
 
   return (
@@ -14,19 +17,19 @@ const Products = () => {
           <img src={lunch} alt="" />
           <h3>Lunch + dinner</h3>
           <p>It was popularised in the 1960s with the release.</p>
-          <Button />
+          <Button btnText="see more" />
         </div>
         <div className={style.block}>
-          <img src={lunch} alt="" />
+          <img src={deserts} alt="" />
           <h3>Lunch + dinner</h3>
           <p>It was popularised in the 1960s with the release.</p>
-          <Button />
+          <Button btnText="see more" />
         </div>
         <div className={style.block}>
-          <img src={lunch} alt="" />
+          <img src={whiskey} alt="" />
           <h3>Lunch + dinner</h3>
           <p>It was popularised in the 1960s with the release.</p>
-          <Button />
+          <Button btnText="see more" />
         </div>
       </div>
     </div>
