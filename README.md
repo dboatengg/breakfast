@@ -33,6 +33,9 @@ Check out the live demo [here](https://moody-foods.netlify.app/).
 - Browse the website to learn more about what Breakfast offers
 - Use the navigation menu to explore different sections of the website
 
+## Design Credit
+- [Freepik - Landing page designs](https://www.freepik.com/free-psd/moody-food-restaurant-concept-mock-up_6675664.htm#&position=0&from_view=user)
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
