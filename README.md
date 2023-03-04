@@ -4,6 +4,9 @@
 
 Moody Foods is a landing page website for an eatery that serves a variety of breakfast food items.
 
+## Demo
+Check out the live demo [here](https://moody-foods.netlify.app/).
+
 ## Features
 
 - Beautiful and modern design
