@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/KSRQBos.png)
 
-Breakfast is a landing page website for an eatery that serves a variety of breakfast food items. This project is currently under construction.
+Moody Foods is a landing page website for an eatery that serves a variety of breakfast food items. 
 
 ## Features
 
