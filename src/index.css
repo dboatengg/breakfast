@@ -5,12 +5,12 @@
   --brand-black: #141414;
 }
 html {
-  overflow-x: hidden;
   font-size: 62.5%;
 }
 body {
   font-family: "Playfair Display", "serif";
   font-size: 1.8rem;
+  overflow-x: hidden;
 }
 h1 {
   line-height: 1;

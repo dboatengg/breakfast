@@ -8,7 +8,7 @@ const Form = () => {
   };
 
   return (
-    <form className={`${style.form} form`}>
+    <form className={`${style.form} form`} id="contact">
       <h3 className={style.title}>GET IN TOUCH</h3>
       <input
         type="text"

@@ -10,7 +10,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className={style.container}>
+    <div className={style.container} id="shop">
       <div className={`${style.content} container `}>
         <img className={style.img} src={gallery1} alt="" />
         <img className={style.img} src={gallery2} alt="" />
