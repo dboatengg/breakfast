@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/KSRQBos.png)
 
-Breakfast is a landing page website will showcase a variety of breakfast food items and will provide detailed information about the company and its mission. This project is currently under construction.
+Breakfast is a landing page website for an eatery that serves a variety of breakfast food items. This project is currently under construction.
 
 ## Features
 
