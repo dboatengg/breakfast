@@ -10,7 +10,6 @@ Moody Foods is a landing page website for an eatery that serves a variety of bre
 - Responsive layout that works on all devices
 - Smooth animations and transitions powered by Framer Motion
 - Detailed information about the company and its mission
-- Informational pages for each breakfast item
 
 ## Built With
 
