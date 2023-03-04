@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/KSRQBos.png)
 
-Moody Foods is a landing page website for an eatery that serves a variety of breakfast food items. 
+Moody Foods is a landing page website for an eatery that serves a variety of breakfast food items.
 
 ## Features
 

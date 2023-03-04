@@ -5,7 +5,7 @@ import History from "./components/History";
 import FoodOne from "./components/FoodOne";
 import FoodTwo from "./components/FoodTwo";
 import Gallery from "./components/Gallery";
-import Cta from "./components/Cta";
+// import Cta from "./components/Cta";
 import Products from "./components/Products";
 import Footer from "./components/Footer/Footer";
 import "./tailwind.css";
@@ -20,7 +20,7 @@ function App() {
       <FoodOne />
       <FoodTwo />
       <Gallery />
-      <Cta />
+      {/* <Cta /> */}
       <Products />
       <Footer />
     </div>
