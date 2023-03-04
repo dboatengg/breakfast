@@ -25,7 +25,7 @@ const FoodTwo = () => {
             publishing software like Aldus PageMaker including versions of Lorem
             Ipsum.
           </p>
-          <Button />
+          <Button btnText="see more" />
         </div>
       </div>
     </div>

@@ -1,3 +1,9 @@
+:root {
+  --brand-yellow: #dfa32f;
+  --brand-white: #ffffff;
+  --brand-gray: #cdcdcd;
+  --brand-black: #141414;
+}
 html {
   overflow-x: hidden;
   font-size: 62.5%;
@@ -9,7 +15,10 @@ body {
 h1 {
   line-height: 1;
 }
-
+input,
+textarea {
+  outline: none;
+}
 .container {
   width: 90%;
   max-width: 1536px;
@@ -27,6 +36,7 @@ h1 {
   z-index: 100;
   animation: slideDown 0.5s forwards;
   box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.4);
+  padding-bottom: 15px;
 }
 
 @keyframes slideDown {
@@ -116,4 +126,31 @@ h1 {
   /* .foodone .title {
     font-size: 2rem;
   } */
+}
+
+/*====================(Cta)===================*/
+.cta {
+  background-image: url("./assets/cta__img.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 55%;
+}
+
+/*====================(Form)===================*/
+.form input,
+.form textarea {
+  border-bottom: 1px solid var(--brand-white);
+  background-color: transparent;
+  transition: 0.3s;
+}
+.form textarea {
+  height: 15rem;
+  resize: none;
+}
+
+/*====================(Form)===================*/
+.footer {
+  background-image: url("./assets/footer__img.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -1,10 +1,10 @@
-import galleryOne from "../assets/galleryone.webp";
-import galleryTwo from "../assets/gallerytwo.webp";
-import galleryThree from "../assets/gallerythree.webp";
+import gallery1 from "../assets/gallery-1.webp";
+import gallery2 from "../assets/gallery-2.webp";
+import gallery3 from "../assets/gallery-3.webp";
 
 const Gallery = () => {
   const style = {
-    container: `bg-brand-gray py-[100px]`,
+    container: `bg-brand-gray py-[70px]`,
     content: `flex justify-center flex-wrap gap-4`,
     img: `rounded-sm w-[35rem] xl:w-[40rem]`,
   };
@@ -12,9 +12,9 @@ const Gallery = () => {
   return (
     <div className={style.container}>
       <div className={`${style.content} container `}>
-        <img className={style.img} src={galleryOne} alt="" />
-        <img className={style.img} src={galleryTwo} alt="" />
-        <img className={style.img} src={galleryThree} alt="" />
+        <img className={style.img} src={gallery1} alt="" />
+        <img className={style.img} src={gallery2} alt="" />
+        <img className={style.img} src={gallery3} alt="" />
       </div>
     </div>
   );

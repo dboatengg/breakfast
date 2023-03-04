@@ -1,4 +1,4 @@
-import Arrow from "../assets/arrow.png";
+import Arrow from "../../assets/arrow.png";
 
 const Hero = () => {
   const style = {

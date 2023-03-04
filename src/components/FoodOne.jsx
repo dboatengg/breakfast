@@ -27,7 +27,7 @@ const FoodOne = () => {
             publishing software like Aldus PageMaker including versions of Lorem
             Ipsum.
           </p>
-          <Button />
+          <Button btnText="see more" />
         </div>
         <div className={`${style.right} foodone__right`}>
           <img className={`${style.img} img`} src={foodone} alt="" />

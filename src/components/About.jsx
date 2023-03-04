@@ -28,7 +28,7 @@ const About = () => {
           src={aboutImg}
           alt="image of two bowls with grapes"
         />
-        <Button />
+        <Button btnText="see more" />
       </div>
     </div>
   );
